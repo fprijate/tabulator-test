@@ -1,0 +1,60 @@
+Uncaught TypeError: this.rootPopup is null
+    loadMenu Menu.js:263
+    loadMenu Menu.js:262
+    loadMenuEvent Menu.js:169
+    _dispatch InternalEventBus.js:130
+    _dispatch InternalEventBus.js:129
+    dispatch CoreFeature.js:78
+    triggerEvents InteractionMonitor.js:314
+    track InteractionMonitor.js:206
+    updateEventListeners InteractionMonitor.js:188
+    subscriptionChanged InteractionMonitor.js:177
+    _notifiySubscriptionChange InternalEventBus.js:119
+    _notifiySubscriptionChange InternalEventBus.js:118
+    subscribe InternalEventBus.js:47
+    subscribe CoreFeature.js:62
+    subscriptionChanged Interaction.js:170
+    _notifiySubscriptionChange ExternalEventBus.js:81
+    _notifiySubscriptionChange ExternalEventBus.js:80
+    subscriptionChange ExternalEventBus.js:32
+    subscriptionChangeExternal CoreFeature.js:98
+    initializeExternalEvents Interaction.js:160
+    initialize Interaction.js:128
+    _initializeTable Tabulator.js:278
+    _initializeTable Tabulator.js:277
+    _create Tabulator.js:155
+    Tabulator Tabulator.js:72
+    setTimeout handler*Tabulator Tabulator.js:71
+    TabulatorFull PseudoRow.js:8
+    setup TabulatorTable.vue:130
+    callWithErrorHandling runtime-core.esm-bundler.js:155
+    callWithAsyncErrorHandling runtime-core.esm-bundler.js:164
+    __weh runtime-core.esm-bundler.js:2687
+    flushPostFlushCbs runtime-core.esm-bundler.js:358
+    flushJobs runtime-core.esm-bundler.js:403
+    promise callback*queueFlush runtime-core.esm-bundler.js:285
+    queueCb runtime-core.esm-bundler.js:307
+    queuePostFlushCb runtime-core.esm-bundler.js:313
+    queueEffectWithSuspense runtime-core.esm-bundler.js:1582
+    scheduler runtime-core.esm-bundler.js:1804
+    triggerEffect reactivity.esm-bundler.js:394
+    triggerEffects reactivity.esm-bundler.js:384
+    triggerRefValue reactivity.esm-bundler.js:1000
+    effect reactivity.esm-bundler.js:1131
+    triggerEffect reactivity.esm-bundler.js:394
+    triggerEffects reactivity.esm-bundler.js:379
+    triggerRefValue reactivity.esm-bundler.js:1000
+    effect reactivity.esm-bundler.js:1131
+    triggerEffect reactivity.esm-bundler.js:394
+    triggerEffects reactivity.esm-bundler.js:379
+    triggerRefValue reactivity.esm-bundler.js:1000
+    set value reactivity.esm-bundler.js:1044
+    finalizeNavigation vue-router.esm-bundler.js:3214
+    pushWithRedirect vue-router.esm-bundler.js:3087
+    promise callback*pushWithRedirect vue-router.esm-bundler.js:3058
+    push vue-router.esm-bundler.js:2986
+    install vue-router.esm-bundler.js:3403
+    use runtime-core.esm-bundler.js:4327
+    start client-entry.js:67
+    promise callback* client-entry.js:86
+Menu.js:263:3
